@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Bone\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Remnants of a fallen warrior.\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"COMMON\",\"color\":\"gray\",\"italic\":false,\"bold\":true}']},HideFlags:63}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

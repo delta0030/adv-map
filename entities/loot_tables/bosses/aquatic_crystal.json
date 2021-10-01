@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_crystals",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Aquatic Crystal\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Contains powerful energy...\",\"color\":\"gold\",\"italic\":false}','{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true,\"italic\":false}']},HideFlags:63,Enchantments:[{}]}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 9,
+                "max": 14
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
