@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.data.stats.ammo_cost.regular_arrow run function items:weapons/ranged/ammo_req/ammo/arrow/regular/init

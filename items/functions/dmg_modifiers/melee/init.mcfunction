@@ -1,0 +1,1 @@
+function items:dmg_modifiers/melee/armor
