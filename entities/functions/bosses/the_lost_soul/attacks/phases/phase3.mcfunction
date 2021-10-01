@@ -1,0 +1,1 @@
+execute if entity @s[tag=!poison_active] run function entities:bosses/the_lost_soul/attacks/poison_clouds/init

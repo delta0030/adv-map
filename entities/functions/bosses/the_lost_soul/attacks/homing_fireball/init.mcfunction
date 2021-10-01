@@ -1,0 +1,2 @@
+summon armor_stand ^ ^-0.5 ^1 {NoGravity:1b,Tags:["tls_fb_stand"],Invisible:1b,Invulnerable:1b,Passengers:[{id:"minecraft:fireball",Tags:["tls_fb"]}]}
+function entities:bosses/the_lost_soul/attacks/homing_fireball/main

@@ -1,0 +1,1 @@
+execute at @e[type=slime,tag=boss_1] run summon minecraft:armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["boss_1_position"]}

@@ -1,0 +1,1 @@
+tellraw @s {"text":"The attack seemed to phase right through the Lost Soul! It did no damage!","color":"dark_gray","italic":false}
