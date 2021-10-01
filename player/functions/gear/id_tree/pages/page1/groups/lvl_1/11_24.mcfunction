@@ -1,0 +1,2 @@
+execute if score @s new_gear_id matches 11..14 run function player:gear/id_tree/pages/page1/groups/lvl_0/11_14
+execute if score @s new_gear_id matches 21..24 run function player:gear/id_tree/pages/page1/groups/lvl_0/21_24
