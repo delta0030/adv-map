@@ -1,0 +1,31 @@
+{
+    "display": {
+      "icon": {
+        "item": "dirt"
+      },
+      "title": "d",
+      "description": "wow",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "rewards": {
+      "function": "player:stats/dmg/get_base_dmg/dungeon/singwoods/ghost"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "type": "minecraft:vex",
+              "nbt": "{Tags:[\"swdm4\"]}"
+            },
+            "direct_entity": {
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    }
+  }
