@@ -1,0 +1,2 @@
+execute at @a run summon vindicator ^ ^ ^-33 {Silent:1b,Health:1024f,Tags:["executioner"],HandItems:[{id:"minecraft:netherite_axe",Count:1b,tag:{display:{Name:'{"text":"Executioner\'s Axe","color":"dark_red","italic":false}'},HideFlags:63,Unbreakable:1b,exeAxe:1b,Enchantments:[{}]}},{}],HandDropChances:[0.333F,0.333F],Attributes:[{Name:"generic.max_health",Base:1024},{Name:"generic.follow_range",Base:50},{Name:"generic.movement_speed",Base:0.5},{Name:"generic.armor",Base:27}]}
+playsound executioner.bells master @a

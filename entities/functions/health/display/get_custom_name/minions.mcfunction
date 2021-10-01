@@ -1,0 +1,3 @@
+execute if entity @s[tag=globulous_minion] run data modify block 0 0 0 Text1 set value '{"text":"Slimy Servant","color":"green"}'
+execute if entity @s[tag=tortured_soul,tag=tls_minion] run data modify block 0 0 0 Text1 set value '{"text":"Tortured Soul","color":"aqua"}'
+execute if entity @s[tag=ethereal_skeleton,tag=tls_minion] run data modify block 0 0 0 Text1 set value '{"text":"Ethereal Skeleton","color":"aqua"}'
