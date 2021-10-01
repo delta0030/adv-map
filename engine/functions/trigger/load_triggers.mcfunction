@@ -1,0 +1,26 @@
+scoreboard objectives add pebble trigger
+scoreboard objectives add chipped_rock trigger
+scoreboard objectives add twig trigger
+scoreboard objectives add feather trigger
+scoreboard objectives add iron_ore trigger
+scoreboard objectives add nickel_ore trigger
+scoreboard objectives add nickel_nugget trigger
+scoreboard objectives add iridium trigger
+scoreboard objectives add bone trigger
+scoreboard objectives add slime_ball trigger
+scoreboard objectives add gelatin trigger
+scoreboard objectives add regular_arrow trigger
+scoreboard objectives add slimy_helmet trigger
+scoreboard objectives add slimy_chestplate trigger
+scoreboard objectives add slimy_leggings trigger
+scoreboard objectives add slimy_boots trigger
+scoreboard objectives add small_quiver trigger
+scoreboard objectives add lesser_healing trigger
+scoreboard objectives add healing trigger
+scoreboard objectives add greater_healing trigger
+scoreboard objectives add mystic_healing trigger
+scoreboard objectives add pure_healing trigger
+scoreboard objectives add crd_dragon_scale trigger
+scoreboard objectives add dragon_scale trigger
+scoreboard objectives add nchntd_drgn_scle trigger
+function engine:trigger/enable
