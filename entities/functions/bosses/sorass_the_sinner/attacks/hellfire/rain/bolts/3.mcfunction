@@ -1,0 +1,15 @@
+summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Small:1b,Tags:["hellfire_bolt","hb3"]}
+summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Small:1b,Tags:["hellfire_bolt","hb3"]}
+summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Small:1b,Tags:["hellfire_bolt","hb3"]}
+summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Small:1b,Tags:["hellfire_bolt","hb3"]}
+summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Small:1b,Tags:["hellfire_bolt","hb3"]}
+summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Small:1b,Tags:["hellfire_bolt","hb3"]}
+summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Small:1b,Tags:["hellfire_bolt","hb3"]}
+summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Small:1b,Tags:["hellfire_bolt","hb3"]}
+summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Small:1b,Tags:["hellfire_bolt","hb3"]}
+summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Small:1b,Tags:["hellfire_bolt","hb3"]}
+summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Small:1b,Tags:["hellfire_bolt","hb3","hbtrack3","hbtrack"]}
+summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Small:1b,Tags:["hellfire_bolt","hb3","hbtrack3","hbtrack"]}
+summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Small:1b,Tags:["hellfire_bolt","hb3","hbtrack3","hbtrack"]}
+summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Small:1b,Tags:["hellfire_bolt","hb3","hbtrack3","hbtrack"]}
+summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Small:1b,Tags:["hellfire_bolt","hb3","hbtrack3","hbtrack"]}

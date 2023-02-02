@@ -1,0 +1,1 @@
+execute if entity @e[type=armor_stand,tag=hellfire_linger] if entity @e[type=zombie_villager,tag=boss_3] run function entities:bosses/sorass_the_sinner/attacks/hellfire/rain/bolts/linger/test

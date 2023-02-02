@@ -1,0 +1,1 @@
+execute as @e[tag=sts_sums] at @s run tp @s ~ ~-10000 ~

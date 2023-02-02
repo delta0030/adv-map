@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ air positioned ~ ~-0.5 ~ unless entity @e[distance=..2,type=!zombie_villager,tag=boss_3] positioned ^ ^ ^0.25 positioned ~ ~0.5 ~ run function entities:bosses/sorass_the_sinner/attacks/look/detection
+execute if entity @e[distance=..2,type=zombie_villager,tag=boss_3] run function entities:bosses/sorass_the_sinner/attacks/look/tp
