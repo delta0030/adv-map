@@ -1,0 +1,1 @@
+playsound executioner:bells master @s ~ ~ ~ 100000 1 1
