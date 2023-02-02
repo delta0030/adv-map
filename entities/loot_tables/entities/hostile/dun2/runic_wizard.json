@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Bone\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Remnants of a fallen warrior.\",\"color\":\"dark_gray\",\"italic\":false}','[{\"text\":\" \"}]','{\"text\":\"COMMON\",\"color\":\"gray\",\"italic\":false,\"bold\":true}']},HideFlags:127,data:{type:3b,class:0b,group:0b}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 34,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Wooden Wand\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"Cast spell to thwart your enemies.\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\" \"}]','[{\"text\":\"\uE005 13 \",\"color\":\"white\",\"italic\":false},{\"text\":\"Magic\",\"color\":\"blue\",\"italic\":false},{\"text\":\" Damage\",\"color\":\"gray\",\"italic\":false}]','{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}']},HideFlags:127,Unbreakable:1b,CustomModelData:10000011,wooden_wand:1b,data:{type:1b,class:3b,group:2b,stats:{mana_cost:15,cooldown:15}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 33,
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Wizard Hat\",\"color\":\"gold\",\"italic\":false}',Lore:['[{\"text\":\"A hat taken from the glorious Runic Wizard.\",\"color\":\"dark_gray\",\"italic\":false}]','{\"text\":\" \"}','[{\"text\":\"\uE001 +17\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" Defense\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]','[{\"text\":\"\uF802\"},{\"text\":\"\uE005 -8%\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" Mana Cost\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]','{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true,\"italic\":false}']},HideFlags:127,Unbreakable:1b,CustomModelData:10000012,wizard_hat:1b,data:{type:2b,class:3b,group:2b,stats:{def:17,mana_red:8}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 33,
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Wizard Robe\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Sparkly.\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\" \"}','[{\"text\":\"\uE001 +25\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" Defense\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]','[{\"text\":\"\uF802\"},{\"text\":\"\uE005 -15%\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" Mana Cost\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]','{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true,\"italic\":false}']},HideFlags:127,Unbreakable:1b,CustomModelData:10000013,wizard_robe:1b,data:{type:2b,class:3b,group:2b,stats:{def:25,mana_red:15}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

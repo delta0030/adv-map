@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Cave Silk\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Finely woven strands of illusive cave silk.\",\"color\":\"dark_gray\",\"italic\":false}','[{\"text\":\" \"}]','{\"text\":\"COMMON\",\"color\":\"gray\",\"italic\":false,\"bold\":true}']},HideFlags:127,data:{type:3b,class:0b,group:2b}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

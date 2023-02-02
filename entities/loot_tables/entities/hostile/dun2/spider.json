@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Spider Eye\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Carefully extracted from an arachnid corpse. Yuck.\",\"color\":\"dark_gray\",\"italic\":false}','[{\"text\":\" \"}]','{\"text\":\"COMMON\",\"color\":\"gray\",\"italic\":false,\"bold\":true}']},HideFlags:127,data:{type:3b,class:0b,group:0b}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
