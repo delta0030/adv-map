@@ -1,0 +1,1 @@
+execute as @p[tag=ice_damage] at @s run function entities:mobs/types/dungeon/singwoods/guardian/frost/freeze_player

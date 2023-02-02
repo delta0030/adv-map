@@ -1,0 +1,2 @@
+execute unless entity @e[x=1344,y=46,z=-1215,dx=0,dy=0,dz=0,type=minecraft:item_frame,nbt={ItemRotation:0b}] run scoreboard players set %door singwoodsdun 1
+execute if score %door singwoodsdun matches 1 run function entities:mobs/types/dungeon/singwoods/extra/hidden_door/open

@@ -1,0 +1,13 @@
+execute at @e[type=vindicator,tag=swmb1] run summon armor_stand ~ ~2 ~ {Silent:1b,Invulnerable:1b,NoBasePlate:1b,Invisible:1b,Tags:["swmb1_fire"]}
+execute at @e[type=vindicator,tag=swmb1] run summon armor_stand ~ ~2 ~ {Silent:1b,Invulnerable:1b,NoBasePlate:1b,Invisible:1b,Tags:["swmb1_fire"]}
+execute at @e[type=vindicator,tag=swmb1] run summon armor_stand ~ ~2 ~ {Silent:1b,Invulnerable:1b,NoBasePlate:1b,Invisible:1b,Tags:["swmb1_fire"]}
+execute at @e[type=vindicator,tag=swmb1] run summon armor_stand ~ ~2 ~ {Silent:1b,Invulnerable:1b,NoBasePlate:1b,Invisible:1b,Tags:["swmb1_fire"]}
+execute at @e[type=vindicator,tag=swmb1] run summon armor_stand ~ ~2 ~ {Silent:1b,Invulnerable:1b,NoBasePlate:1b,Invisible:1b,Tags:["swmb1_fire"]}
+execute at @e[type=vindicator,tag=swmb1] run summon armor_stand ~ ~2 ~ {Silent:1b,Invulnerable:1b,NoBasePlate:1b,Invisible:1b,Tags:["swmb1_fire"]}
+execute at @e[type=vindicator,tag=swmb1] run summon armor_stand ~ ~2 ~ {Silent:1b,Invulnerable:1b,NoBasePlate:1b,Invisible:1b,Tags:["swmb1_fire"]}
+execute at @e[type=vindicator,tag=swmb1] run summon armor_stand ~ ~2 ~ {Silent:1b,Invulnerable:1b,NoBasePlate:1b,Invisible:1b,Tags:["swmb1_fire"]}
+execute at @e[type=vindicator,tag=swmb1] run summon armor_stand ~ ~2 ~ {Silent:1b,Invulnerable:1b,NoBasePlate:1b,Invisible:1b,Tags:["swmb1_fire"]}
+execute at @e[type=vindicator,tag=swmb1] run summon armor_stand ~ ~2 ~ {Silent:1b,Invulnerable:1b,NoBasePlate:1b,Invisible:1b,Tags:["swmb1_fire"]}
+execute at @e[type=vindicator,tag=swmb1] run summon armor_stand ~ ~2 ~ {Silent:1b,Invulnerable:1b,NoBasePlate:1b,Invisible:1b,Tags:["swmb1_fire"]}
+execute at @e[type=vindicator,tag=swmb1] run summon armor_stand ~ ~2 ~ {Silent:1b,Invulnerable:1b,NoBasePlate:1b,Invisible:1b,Tags:["swmb1_fire"]}
+execute at @e[type=vindicator,tag=swmb1] run summon armor_stand ~ ~2 ~ {Silent:1b,Invulnerable:1b,NoBasePlate:1b,Invisible:1b,Tags:["swmb1_fire"]}
