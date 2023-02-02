@@ -1,0 +1,1 @@
+execute if predicate entities:chance_0.5 run function entities:mobs/types/dungeon/mookan/ghoul/bats/init

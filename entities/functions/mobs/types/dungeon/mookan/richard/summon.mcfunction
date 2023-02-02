@@ -1,0 +1,1 @@
+summon piglin_brute ~ ~ ~ {Health:100f,IsImmuneToZombification:1b,Tags:["mdm","mdm0","mob"],HandItems:[{id:"minecraft:iron_axe",Count:1b,tag:{HideFlags:127,Unbreakable:1b,Enchantments:[{}]}},{}],HandDropChances:[0.010F,0.085F],Attributes:[{Name:"generic.movement_speed",Base:0.5}]}
