@@ -1,0 +1,1 @@
+kill @e[type=armor_stand,tag=cannon_orb_marker]
