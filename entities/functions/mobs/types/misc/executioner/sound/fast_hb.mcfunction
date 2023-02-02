@@ -1,1 +1,0 @@
-playsound minecraft:executioner.fast_hb master @a ~ ~ ~ 10000 1 1
