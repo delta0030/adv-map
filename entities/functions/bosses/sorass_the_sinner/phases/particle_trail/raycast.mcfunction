@@ -1,0 +1,2 @@
+execute if predicate entities:chance_2 run particle smoke ~ ~1.25 ~ 0.1 0.1 0.1 0 1
+execute if block ~ ~ ~ air positioned ~ ~-1.25 ~ unless entity @e[type=zombie_villager,tag=boss_3,distance=..2] positioned ^ ^ ^0.25 positioned ~ ~1.25 ~ run function entities:bosses/sorass_the_sinner/phases/particle_trail/raycast
