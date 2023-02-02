@@ -1,5 +1,5 @@
-execute if block ~ ~ ~ air rotated ~ 25 run tp @s ^ ^ ^0.25
-execute unless block ~ ~ ~ air rotated ~ 0 run tp @s ^ ^ ^0.25
+execute if block ~ ~ ~ air rotated ~ ~ run tp @s ^ ^ ^0.2
+execute unless block ~ ~ ~ air rotated ~ 0 run tp @s ^ ^ ^0.2
 
 execute as @a[dx=0] if score @s iframes matches 0 run function entities:bosses/the_lost_soul/attacks/pufferfish/dmg
 

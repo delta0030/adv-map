@@ -1,4 +1,4 @@
-scoreboard players set %range raycast 500
+scoreboard players set %range raycast 320
 scoreboard players set %reflect raycast 4
 
 summon area_effect_cloud ~ ~ ~ {Tags:["reflect"]}
