@@ -1,3 +1,4 @@
+scoreboard objectives add null trigger
 scoreboard objectives add pebble trigger
 scoreboard objectives add chipped_rock trigger
 scoreboard objectives add twig trigger
@@ -23,4 +24,6 @@ scoreboard objectives add pure_healing trigger
 scoreboard objectives add crd_dragon_scale trigger
 scoreboard objectives add dragon_scale trigger
 scoreboard objectives add nchntd_drgn_scle trigger
+scoreboard objectives add freeze trigger
+scoreboard objectives add tinder trigger
 function engine:trigger/enable
