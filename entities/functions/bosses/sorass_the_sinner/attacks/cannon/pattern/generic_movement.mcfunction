@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=can_mark] at @s run tp @s ~ ~ ~ facing entity @p eyes
