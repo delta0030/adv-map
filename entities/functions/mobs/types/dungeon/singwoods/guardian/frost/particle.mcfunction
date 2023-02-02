@@ -1,1 +1,0 @@
-execute as @e[type=armor_stand,tag=swmb1_circle] at @s run particle minecraft:poof ~ ~ ~ 4 0 4 0 100 force
