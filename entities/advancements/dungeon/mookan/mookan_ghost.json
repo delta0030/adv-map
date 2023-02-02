@@ -18,7 +18,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:[\"swdm\"]}"
+              "nbt": "{Tags:[\"mdm\"]}"
             }
           }
         ]
@@ -26,6 +26,6 @@
     }
   },
   "rewards": {
-    "function": "entities:mobs/types/dungeon/singwoods/ghost_test"
+    "function": "entities:mobs/types/dungeon/mookan/ghost_test"
   }
 }
