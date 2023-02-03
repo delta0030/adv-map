@@ -1,0 +1,3 @@
+execute if score @s campfire_menu matches 1 run data merge block ~ 1 ~ {Text1:'[{"nbt":"Text1","block":"~ 1 ~","interpret":"true"},{"translate":"space.-45"},"\\uE010",{"translate":"space.15"},"\\uE00B",{"translate":"space.15"},"\\uE00C"]'}
+execute if score @s campfire_menu matches 2 run data merge block ~ 1 ~ {Text1:'[{"nbt":"Text1","block":"~ 1 ~","interpret":"true"},{"translate":"space.-45"},"\\uE00D",{"translate":"space.15"},"\\uE00E",{"translate":"space.15"},"\\uE00C"]'}
+execute if score @s campfire_menu matches 3 run data merge block ~ 1 ~ {Text1:'[{"nbt":"Text1","block":"~ 1 ~","interpret":"true"},{"translate":"space.-45"},"\\uE00D",{"translate":"space.15"},"\\uE00B",{"translate":"space.15"},"\\uE00F"]'}
