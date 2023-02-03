@@ -1,0 +1,7 @@
+execute if score %pz pos matches 546..558 run data modify storage map player set value '[{"translate":"space.-43","font":"default"}]'
+execute if score %pz pos matches 559..571 run data modify storage map player set value '[{"translate":"space.-44","font":"default"}]'
+execute if score %pz pos matches 572..584 run data modify storage map player set value '[{"translate":"space.-45","font":"default"}]'
+execute if score %pz pos matches 585..597 run data modify storage map player set value '[{"translate":"space.-46","font":"default"}]'
+execute if score %pz pos matches 598..610 run data modify storage map player set value '[{"translate":"space.-47","font":"default"}]'
+execute if score %pz pos matches 611..623 run data modify storage map player set value '[{"translate":"space.-48","font":"default"}]'
+execute if score %pz pos matches 624..636 run data modify storage map player set value '[{"translate":"space.-49","font":"default"}]'
