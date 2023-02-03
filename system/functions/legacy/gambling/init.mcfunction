@@ -1,0 +1,3 @@
+function mechanics:gambling/chat_clear
+execute unless score %testMoney coinBet matches ..99 run tellraw @p ["",{"text":"Would you like to gamble?","color":"white"},{"text":"\n"},{"text":"[Yes]","color":"dark_green","clickEvent":{"action":"run_command","value":"/function mechanics:gambling/prompt"}},{"text":" ","color":"red"},{"text":"[No]","color":"red","clickEvent":{"action":"run_command","value":"/function mechanics:gambling/reject"}}]
+execute if score %testMoney coinBet matches ..99 run tellraw @p {"text":"You do not have the funds to participate. Come back when you have 100 or more coins.","color":"gold"}

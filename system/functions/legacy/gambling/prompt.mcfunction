@@ -1,0 +1,2 @@
+function mechanics:gambling/chat_clear
+tellraw @p ["",{"text":"[Coinflip]","color":"gold","clickEvent":{"action":"run_command","value":"/function mechanics:gambling/coinflip/start"}},{"text":"\n"},{"text":"Dice","color":"blue","clickEvent":{"action":"run_command","value":"/say dice"}}]

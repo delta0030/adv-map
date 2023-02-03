@@ -1,0 +1,1 @@
+execute as @s unless score %night timeCycle matches 1 if score @s bossfight matches 0 if score @s singwoodsdun matches 0 run function system:music/sfx/forest/init

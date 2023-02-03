@@ -1,0 +1,2 @@
+time set 18000
+scoreboard players set %clock timeCycle 18000

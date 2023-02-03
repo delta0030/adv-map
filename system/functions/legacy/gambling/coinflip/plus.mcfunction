@@ -1,0 +1,2 @@
+execute if score %testMoney coinBet >= %control coinBet run scoreboard players add %bet coinBet 100
+execute if score %control coinBet <= %testMoney coinBet run scoreboard players add %control coinBet 100
