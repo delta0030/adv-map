@@ -1,0 +1,21 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "score": {
+          "name": ".test",
+          "objective": "test"
+        },
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "x Wooden Arrow",
+        "color": "white",
+        "italic": false
+      }
+    ]
+  }
+]

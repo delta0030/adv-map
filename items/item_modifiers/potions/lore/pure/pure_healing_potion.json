@@ -1,0 +1,66 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "One of the most precious brews in history. Use it well.",
+        "color": "dark_gray",
+        "italic": false
+      },
+      {
+        "text": "Right click to use.",
+        "color": "dark_gray",
+        "italic": false
+      },
+      {
+        "text": " ",
+        "italic": false
+      },
+      {
+        "text": "Cooldown: ",
+        "color": "gray",
+        "italic": false,
+        "extra": [
+          {
+            "score": {
+              "name": "@s",
+              "objective": "pot_cooldown_disp"
+            },
+            "color": "gray",
+            "italic": false
+          }
+        ]
+      },
+      {
+        "text": " ",
+        "italic": false
+      },
+      {
+        "text": "Restores ",
+        "color": "white",
+        "italic": false,
+        "extra": [
+          {
+            "text": "250 ",
+            "color": "aqua",
+            "italic": false
+          },
+          {
+            "text": "\uE000",
+            "color": "white",
+            "italic": false,
+            "font": "stats"
+          }
+        ]
+      },
+      {
+        "text": "LEGENDARY",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      }
+    ],
+    "replace": true
+  }
+]

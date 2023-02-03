@@ -1,0 +1,26 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "score": {
+          "name": "@s",
+          "objective": "pure_healing1"
+        },
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "x",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": " Pure Healing Potion",
+        "color": "aqua",
+        "italic": false
+      }
+    ]
+  }
+]

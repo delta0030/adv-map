@@ -1,0 +1,57 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "Nearly perfect in every way.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "Right click to use.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": " ",
+          "italic": false
+        },
+        {
+          "text": "Ready to consume!",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": " ",
+          "italic": false
+        },
+        {
+          "text": "Restores ",
+          "color": "white",
+          "italic": false,
+          "extra": [
+            {
+              "text": "125 ",
+              "color": "red",
+              "italic": false
+            },
+            {
+              "text": "\uE000",
+              "color": "white",
+              "italic": false,
+              "font": "stats"
+            }
+          ]
+        },
+        {
+          "text": "RARE",
+          "color": "blue",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      "replace": true
+    }
+  ]
+  
