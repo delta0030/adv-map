@@ -1,1 +1,0 @@
-tag @s remove slime_bonus

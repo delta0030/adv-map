@@ -1,1 +1,0 @@
-execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{slimy_helm:1b}}]}] run function items:gear/set_bonuses/slimy/check
