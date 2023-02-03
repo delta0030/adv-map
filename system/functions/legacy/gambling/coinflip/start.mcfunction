@@ -1,2 +1,0 @@
-function mechanics:gambling/chat_clear
-tellraw @p ["",{"text":"[+100]","color":"green","clickEvent":{"action":"run_command","value":"/function mechanics:gambling/coinflip/plus"}},{"text":"[-100]","color":"red","clickEvent":{"action":"run_command","value":"/function mechanics:gambling/coinflip/minus"}},{"text":"[Bet]","color":"gold","clickEvent":{"action":"run_command","value":"/function mechanics:gambling/coinflip/cf"}}]
