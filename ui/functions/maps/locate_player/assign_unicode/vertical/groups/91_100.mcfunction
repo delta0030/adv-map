@@ -1,7 +1,0 @@
-execute if score %px pos matches 910..922 run data modify storage map player set value '[{"text":"\\uF846","font":"maps"},{"translate":"space.-81","font":"default"}]'
-execute if score %px pos matches 923..935 run data modify storage map player set value '[{"text":"\\uF847","font":"maps"},{"translate":"space.-81","font":"default"}]'
-execute if score %px pos matches 936..948 run data modify storage map player set value '[{"text":"\\uF848","font":"maps"},{"translate":"space.-81","font":"default"}]'
-execute if score %px pos matches 949..961 run data modify storage map player set value '[{"text":"\\uF849","font":"maps"},{"translate":"space.-81","font":"default"}]'
-execute if score %px pos matches 962..974 run data modify storage map player set value '[{"text":"\\uF84A","font":"maps"},{"translate":"space.-81","font":"default"}]'
-execute if score %px pos matches 975..987 run data modify storage map player set value '[{"text":"\\uF84B","font":"maps"},{"translate":"space.-81","font":"default"}]'
-execute if score %px pos matches 988..1000 run data modify storage map player set value '[{"text":"\\uF84C","font":"maps"},{"translate":"space.-81","font":"default"}]'

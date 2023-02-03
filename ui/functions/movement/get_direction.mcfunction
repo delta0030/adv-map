@@ -1,1 +1,0 @@
-execute at @s store result score @s move_dir run data get entity @e[type=area_effect_cloud,tag=menucloud,sort=nearest,limit=1] FallDistance

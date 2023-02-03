@@ -1,1 +1,0 @@
-execute as @a[tag=ui_cooldown] run function ui:movement/ui_cooldown/ui_cooldown

@@ -1,1 +1,0 @@
-execute if entity @e[type=area_effect_cloud,tag=singwoods_camp,distance=..0.5] run data merge block ~ 1 ~ {Text1:'[{"nbt":"Text1","block":"~ 1 ~","interpret":"true"},{"translate":"space.-35"},{"text":"\\uE012"},{"translate":"space.-230"},{"text":"\\uE011"}]'}

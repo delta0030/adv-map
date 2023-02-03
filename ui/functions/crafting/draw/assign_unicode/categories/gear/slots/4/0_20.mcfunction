@@ -1,6 +1,0 @@
-execute if score @s craft_slot_4 matches 0 run data merge block ~ 3 ~ {Text1:'[{"nbt":"Text1","block":"~ 3 ~","interpret":"true"},{"translate":"space.37","font":"default"},{"translate":"space.-31","font":"default"}]'}
-execute if score @s craft_slot_4 matches 1 run data merge block ~ 3 ~ {Text1:'[{"nbt":"Text1","block":"~ 3 ~","interpret":"true"},{"text":"\\uE011","font":"crafting","color":"gray"},{"translate":"space.-31","font":"default"}]'}
-execute if score @s craft_slot_4 matches 2 run data merge block ~ 3 ~ {Text1:'[{"nbt":"Text1","block":"~ 3 ~","interpret":"true"},{"text":"\\uE018","font":"crafting","color":"gray"},{"translate":"space.-31","font":"default"}]'}
-execute if score @s craft_slot_4 matches 3 run data merge block ~ 3 ~ {Text1:'[{"nbt":"Text1","block":"~ 3 ~","interpret":"true"},{"text":"\\uE01E","font":"crafting","color":"gray"},{"translate":"space.-31","font":"default"}]'}
-execute if score @s craft_slot_4 matches 4 run data merge block ~ 3 ~ {Text1:'[{"nbt":"Text1","block":"~ 3 ~","interpret":"true"},{"text":"\\uE024","font":"crafting","color":"gray"},{"translate":"space.-31","font":"default"}]'}
-execute if score @s craft_slot_4 matches 5 run data merge block ~ 3 ~ {Text1:'[{"nbt":"Text1","block":"~ 3 ~","interpret":"true"},{"text":"\\uE02A","font":"crafting","color":"gray"},{"translate":"space.-31","font":"default"}]'}

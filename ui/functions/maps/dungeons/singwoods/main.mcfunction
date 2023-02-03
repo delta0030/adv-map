@@ -1,1 +1,0 @@
-execute if entity @s[tag=floor1] run function ui:maps/dungeons/singwoods/floor1/main
