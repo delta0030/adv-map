@@ -1,0 +1,1 @@
+scoreboard players set @s bonus_var 0
