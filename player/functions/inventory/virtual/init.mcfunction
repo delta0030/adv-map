@@ -1,1 +1,0 @@
-execute at @s run function player:inventory/virtual/item_drive
