@@ -1,0 +1,2 @@
+execute as @e[tag=aurora_1] at @s unless score @s t matches 45.. run function items:weapons/magic/aurora/decay
+execute if entity @e[tag=aurora_1] run schedule function items:weapons/magic/aurora/decay_buffer 3t

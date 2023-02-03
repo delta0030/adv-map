@@ -1,0 +1,1 @@
+execute if entity @s[tag=ss_owner] run function items:weapons/summoner/slime_staff/control/main

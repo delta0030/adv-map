@@ -1,0 +1,1 @@
+execute as @a[tag=summoner] run function items:weapons/summoner/control
