@@ -1,0 +1,14 @@
+{
+    "values": [
+        "minecraft:skeleton",
+        "minecraft:zombie",
+        "minecraft:spider",
+        "minecraft:cave_spider",
+        "minecraft:husk",
+        "minecraft:drowned",
+        "minecraft:blaze",
+        "minecraft:wither_skeleton",
+        "minecraft:magma_cube",
+        "minecraft:vex"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "display": {
+      "icon": {
+        "item": "dirt"
+      },
+      "title": "ur bad",
+      "description": "pfff loser, just kill it",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "rewards": {
+      "function": "player:stats/dmg/get_base_dmg/dungeon/mookan/runic_wizard/runic_wizard"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "type": "minecraft:skeleton",
+              "nbt": "{Tags:[\"mdm5\"]}"
+            },
+            "direct_entity": {
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    }
+  }
