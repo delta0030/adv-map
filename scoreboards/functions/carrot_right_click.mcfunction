@@ -1,1 +1,0 @@
-scoreboard objectives add carrot_rc minecraft.used:minecraft.carrot_on_a_stick
