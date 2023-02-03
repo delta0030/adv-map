@@ -1,0 +1,2 @@
+execute if entity @s[nbt={SelectedItem:{tag:{slimyCrystal:1b}}}] if score @s carrot_rc matches 1.. run function items:abilities/summon_items/slimy_crystal
+execute if entity @s[nbt={SelectedItem:{tag:{lesser_healing_potion:1b}}}] if score @s carrot_rc matches 1.. unless score @s potion_sickness matches 1.. unless score @s player_hp = @s player_max_hp run function items:consumable/potions/healing/heal
