@@ -1,2 +1,0 @@
-execute at @s if entity @s[nbt={SelectedItem:{tag:{tinder:1b}}}] if score @s player_mana matches 5.. if score @s carrot_rc matches 1.. run function items:weapons/magic/tinder/init
-execute at @s if entity @s[nbt={SelectedItem:{tag:{freeze:1b}}}] if score @s player_mana matches 12.. if score @s carrot_rc matches 1.. run function items:weapons/magic/freeze/init
