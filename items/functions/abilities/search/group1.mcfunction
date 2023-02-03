@@ -1,2 +1,0 @@
-execute if entity @s[nbt={SelectedItem:{tag:{fire_berry:1b}}}] if score @s carrot_rc matches 1.. run function items:abilities/berries
-execute if entity @s[nbt={SelectedItem:{tag:{frost_berry:1b}}}] if score @s carrot_rc matches 1.. run function items:abilities/berries
