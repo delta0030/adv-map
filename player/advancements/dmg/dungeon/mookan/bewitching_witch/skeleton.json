@@ -1,0 +1,31 @@
+{
+    "display": {
+      "icon": {
+        "item": "dirt"
+      },
+      "title": "damaged_by_ur_mom_hahaha",
+      "description": "witch go brrrrrrrrrrrrr",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "rewards": {
+      "function": "player:stats/dmg/get_base_dmg/dungeon/mookan/bewitching_witch/skeleton"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "type": "minecraft:skeleton",
+              "nbt": "{Tags:[\"mdm4_sum\"]}"
+            },
+            "direct_entity": {
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,16 @@
+{
+    "type": "dimensions:mana",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "dimensions:mana",
+        "lakes": false,
+        "features": false,
+        "layers": [],
+        "structure_overrides": [
+          
+        ]
+      }
+    }
+  }
+  

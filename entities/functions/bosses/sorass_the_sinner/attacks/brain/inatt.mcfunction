@@ -1,0 +1,1 @@
+execute if score %inatt sts_attacks matches 0 run function entities:bosses/sorass_the_sinner/attacks/brain/phases

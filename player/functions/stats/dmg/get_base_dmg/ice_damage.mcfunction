@@ -1,5 +1,5 @@
 scoreboard players set @s base_dmg 3
-scoreboard players set @s mob_pierce 100
+scoreboard players set @s mob_pierce 70
 
 function player:stats/dmg/generic_dmg
 function player:stats/dmg/calc_dmg

@@ -1,0 +1,66 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Like the healing potion, but greater.",
+        "color": "dark_gray",
+        "italic": false
+      },
+      {
+        "text": "Right click to use.",
+        "color": "dark_gray",
+        "italic": false
+      },
+      {
+        "text": " ",
+        "italic": false
+      },
+      {
+        "text": "Cooldown: ",
+        "color": "gray",
+        "italic": false,
+        "extra": [
+          {
+            "score": {
+              "name": "@s",
+              "objective": "pot_cooldown_disp"
+            },
+            "color": "gray",
+            "italic": false
+          }
+        ]
+      },
+      {
+        "text": " ",
+        "italic": false
+      },
+      {
+        "text": "Restores ",
+        "color": "white",
+        "italic": false,
+        "extra": [
+          {
+            "text": "75 ",
+            "color": "red",
+            "italic": false
+          },
+          {
+            "text": "\uE000",
+            "font": "stats",
+            "color": "white",
+            "italic": false
+          }
+        ]
+      },
+      {
+        "text": "UNCOMMON",
+        "color": "green",
+        "bold": true,
+        "italic": false
+      }
+    ],
+    "replace": true
+  }
+]

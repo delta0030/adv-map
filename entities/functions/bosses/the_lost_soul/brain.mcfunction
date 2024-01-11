@@ -15,7 +15,7 @@ execute if score @s tls_timer >= %max+ tls_timer run scoreboard players set @s t
 effect give @s resistance 1 10 true
 
 # set bossbar
-bossbar set lost_soul players @a[distance=..50]
+bossbar set lost_soul players @a[distance=..80]
 execute store result bossbar lost_soul value run scoreboard players get @s mob_health
 
 # choose attack

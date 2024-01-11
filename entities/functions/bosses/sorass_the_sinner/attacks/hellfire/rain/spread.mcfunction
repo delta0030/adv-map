@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:armor_stand,tag=hellfire_center] at @s run spreadplayers ~ ~ 1 30 false @e[type=minecraft:armor_stand,tag=hellfire_bolt]
+execute as @e[type=minecraft:armor_stand,tag=hellfire_bolt] store result entity @s Pos[1] double 0.001 run scoreboard players get %ypos hellfire

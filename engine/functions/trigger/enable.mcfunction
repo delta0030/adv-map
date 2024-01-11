@@ -1,3 +1,4 @@
+scoreboard players enable @s null
 scoreboard players enable @s pebble
 scoreboard players enable @s chipped_rock
 scoreboard players enable @s twig
@@ -23,3 +24,5 @@ scoreboard players enable @s pure_healing
 scoreboard players enable @s crd_dragon_scale
 scoreboard players enable @s dragon_scale
 scoreboard players enable @s nchntd_drgn_scle
+scoreboard players enable @s freeze
+scoreboard players enable @s tinder

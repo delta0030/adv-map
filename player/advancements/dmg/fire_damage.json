@@ -4,7 +4,7 @@
       "item": "minecraft:stone"
     },
     "title": "fire",
-    "description": "d",
+    "description": "burn",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": true

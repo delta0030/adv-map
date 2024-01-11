@@ -1,0 +1,1 @@
+function system:npc/zprivate/unlink

@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glass_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Empty Flask\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Leftover flask used to make potions.\",\"color\":\"dark_gray\",\"italic\":false}','[{\"text\":\" \"}]','{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}']},HideFlags:127,empty_flask:1b,data:{type:3b,class:0b,group:2b}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Magic Shot\",\"color\":\"light_purple\",\"italic\":false}',Lore:['[{\"text\":\"Shoot enemies with a powerful ball of concentrated magic.\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\" \"}]','[{\"text\":\"\uE005 15 \",\"color\":\"white\",\"italic\":false},{\"text\":\"Magic\",\"color\":\"blue\",\"italic\":false},{\"text\":\" Damage\",\"color\":\"gray\",\"italic\":false}]','{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}']},HideFlags:127,Unbreakable:1b,CustomModelData:10000007,magic_shot:1b,data:{type:0b,class:0b,group:1b,stats:{mana_cost:20,cooldown:140,base_dmg:0}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Witch Hat\",\"color\":\"dark_purple\",\"italic\":false}',Lore:['{\"text\":\"A hat worn by the infamous Bewitching Witch\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\" \"}','[{\"text\":\"\uE001 +15\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" Defense\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]','[{\"text\":\"\uF802\"},{\"text\":\"\uE005 -5%\",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\" Mana Cost\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]','{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true,\"italic\":false}']},HideFlags:127,Unbreakable:1b,CustomModelData:10000008,witch_hat:1b,data:{type:2b,class:3b,group:2b,stats:{def:15,mana_red:5}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

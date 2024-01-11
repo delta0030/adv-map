@@ -1,5 +1,8 @@
-execute store result score %check_selection crafting run data get storage temp edit[0][0]
-execute if score %check_selection crafting = %selection crafting run scoreboard players set %sel_bool crafting 1
-data remove storage temp edit[0]
+data modify storage array_ops search set from storage temp new_crafts
+data modify storage array_ops search_val set from storage temp copy_old[0][0]
+function math:array_ops/search_algorithm/init
+# if search returns no match and there are still recipes to check, go to next lowest recipe and repeat
 
-execute if score %sel_bool crafting matches 0 if data storage temp edit[] run function ui:crafting/crafts_list/cycle/find_selection
+execute unless score %arr_result math matches 0 if data storage temp copy_old[] run function ui:crafting/crafts_list/cycle/select_new
+# if search returns match, set as new selection
+execute if score %arr_result math matches 0 run function ui:crafting/crafts_list/cycle/match

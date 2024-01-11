@@ -1,0 +1,2 @@
+execute at @s if score @s ss_target matches 0 run function items:weapons/summoner/slime_staff/control/follow/player/init
+execute at @s if score @s ss_target matches 1 run function items:weapons/summoner/slime_staff/control/follow/target/init

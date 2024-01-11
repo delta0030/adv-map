@@ -1,0 +1,14 @@
+execute if score %launch sts_cannon matches 1 run function entities:bosses/sorass_the_sinner/attacks/cannon/launch/pattern/6/spawn/1
+execute if score %launch sts_cannon matches 2 run function entities:bosses/sorass_the_sinner/attacks/cannon/launch/pattern/6/spawn/2
+execute if score %launch sts_cannon matches 3 run function entities:bosses/sorass_the_sinner/attacks/cannon/launch/pattern/6/spawn/3
+execute if score %launch sts_cannon matches 4 run function entities:bosses/sorass_the_sinner/attacks/cannon/launch/pattern/6/spawn/4
+execute if score %launch sts_cannon matches 5 run function entities:bosses/sorass_the_sinner/attacks/cannon/launch/pattern/6/spawn/5
+execute if score %launch sts_cannon matches 6 run function entities:bosses/sorass_the_sinner/attacks/cannon/launch/pattern/6/spawn/6
+execute if score %launch sts_cannon matches 7 run function entities:bosses/sorass_the_sinner/attacks/cannon/launch/pattern/6/spawn/7
+execute if score %launch sts_cannon matches 8 run function entities:bosses/sorass_the_sinner/attacks/cannon/launch/pattern/6/spawn/8
+execute if score %launch sts_cannon matches 9 run function entities:bosses/sorass_the_sinner/attacks/cannon/launch/pattern/6/spawn/9
+execute if score %launch sts_cannon matches 10 run function entities:bosses/sorass_the_sinner/attacks/cannon/launch/pattern/6/spawn/10
+execute if score %launch sts_cannon matches 11 run function entities:bosses/sorass_the_sinner/attacks/cannon/launch/pattern/6/spawn/11
+execute if score %launch sts_cannon matches 12 run function entities:bosses/sorass_the_sinner/attacks/cannon/launch/pattern/6/spawn/12
+execute if score %launch sts_cannon matches 13 run function entities:bosses/sorass_the_sinner/attacks/cannon/launch/pattern/6/spawn/13
+execute if score %launch sts_cannon matches 14 run function entities:bosses/sorass_the_sinner/attacks/cannon/launch/pattern/6/spawn/14

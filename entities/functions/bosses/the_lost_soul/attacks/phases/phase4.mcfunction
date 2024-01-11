@@ -7,4 +7,4 @@ execute if score out math matches 3..10 run function entities:bosses/the_lost_so
 
 # run every attack cycle
 execute if entity @s[tag=!poison_active] run function entities:bosses/the_lost_soul/attacks/poison_clouds/init
-function entities:bosses/the_lost_soul/attacks/minions/ethereal_skeleton/init
+#function entities:bosses/the_lost_soul/attacks/minions/ethereal_skeleton/init

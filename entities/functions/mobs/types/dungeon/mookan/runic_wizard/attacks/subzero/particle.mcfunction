@@ -1,0 +1,1 @@
+execute as @e[tag=mdm5_part] at @s run particle falling_dust snow_block ~ ~ ~ 1 1 1 1 50

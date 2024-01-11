@@ -1,0 +1,5 @@
+summon skeleton ~ ~ ~ {DeathLootTable:"entities:entities/hostile/dun1/melee_skeleton",Tags:["swdm1","swmb1_sum","swdm","new_mob","melee_skeleton"],Health:10f,HandItems:[{id:"minecraft:stone_sword",Count:1b,tag:{display:{Name:'{"text":"Dull Sword","color":"white","italic":false}',Lore:['{"text":"A sword often found among new adventurers.","color":"dark_gray","italic":false}','{"text":" "}','[{"text":"\\uE007 8","color":"white","italic":false},{"text":" Melee","color":"red","italic":false},{"text":" Damage","color":"gray","italic":false}]','{"text":"COMMON","color":"gray","bold":true,"italic":false}']},HideFlags:127,Unbreakable:1b,stone_sword:1b,data:{type:1b,class:1b,group:1b,stats:{base_dmg:6,iframes:15}}}},{}],HandDropChances:[0.050F,0.000F],Attributes:[{Name:"generic.max_health",Base:10}]}
+scoreboard objectives add mob_max_health dummy
+scoreboard objectives add mob_health dummy
+execute as @e[tag=new_mob] run scoreboard players set @s mob_max_health 10
+execute as @e[tag=new_mob] run function entities:mobs/setup

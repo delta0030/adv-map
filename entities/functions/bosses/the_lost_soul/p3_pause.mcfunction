@@ -1,4 +1,4 @@
-tp @s 70.5 53.00 -160.5 facing entity @p
+execute at @e[type=area_effect_cloud,tag=tls_fight_center] run tp @s ~ ~1 ~ facing entity @p
 
 execute if score %timer tls_music matches 125..139 run particle dust 0 1 1 1 ~0.76 ~0.84 ~0.64 0.2 0.2 0.2 0.05 3 force
 execute if score %timer tls_music matches 125..139 run particle soul ~0.76 ~0.84 ~0.64 -0.76 -0.84 -0.64 0.1 0 force

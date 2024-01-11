@@ -1,0 +1,1 @@
+execute if score @s iframes matches 0 run function player:stats/dmg/get_base_dmg/sinner/hellfire_linger

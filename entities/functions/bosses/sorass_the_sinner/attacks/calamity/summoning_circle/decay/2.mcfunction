@@ -1,0 +1,2 @@
+execute as @e[type=armor_stand,tag=center] run function entities:bosses/sorass_the_sinner/attacks/calamity/summoning_circle/display/1/o
+execute as @e[type=armor_stand,tag=center1] run function entities:bosses/sorass_the_sinner/attacks/calamity/summoning_circle/display/2/o

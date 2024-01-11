@@ -1,0 +1,1 @@
+execute if score @s craft_slot_3 matches 0..20 run function player:crafting/craft/search/categories/gear/id_ranges/0_20

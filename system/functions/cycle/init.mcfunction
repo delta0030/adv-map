@@ -1,7 +1,8 @@
 gamerule doDaylightCycle false
 scoreboard objectives add timeCycle dummy
-scoreboard players set %clock timeCycle 0
-scoreboard players set %stop timeCycle 0
-time set 0
+scoreboard players set %night timeCycle 0
+
+# day - 23000..12999
+# night - 13000..22999
 
 function system:cycle/loop

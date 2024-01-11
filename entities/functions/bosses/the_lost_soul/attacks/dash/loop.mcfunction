@@ -1,0 +1,2 @@
+execute as @e[type=armor_stand,tag=tls_dash_stand] at @s run function entities:bosses/the_lost_soul/attacks/dash/tp
+execute if entity @e[tag=tls_dash_stand] run schedule function entities:bosses/the_lost_soul/attacks/dash/loop 1t

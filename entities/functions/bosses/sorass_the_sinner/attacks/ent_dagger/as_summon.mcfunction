@@ -1,0 +1,1 @@
+execute at @e[type=zombie_villager,tag=boss_3] run summon armor_stand ~ ~1.25 ~ {Silent:1b,Invulnerable:1b,NoBasePlate:1b,Invisible:1b,Tags:["sts_ent"]}

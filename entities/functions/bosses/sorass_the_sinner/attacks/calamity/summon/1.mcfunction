@@ -1,0 +1,1 @@
+execute at @e[type=armor_stand,tag=cal_cen] run particle minecraft:dust 0.973 0.898 0.239 0.35 ~ ~ ~ 0.125 0.125 0.125 0 50 normal @a

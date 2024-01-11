@@ -1,0 +1,8 @@
+execute if entity @s[tag=ghost] run data modify block 0 0 0 Text1 set value '{"text":"Ghost"}'
+execute if entity @s[tag=runic_wiz] run data modify block 0 0 0 Text1 set value '{"text":"Runic Wizard","color":"light_purple"}'
+execute if entity @s[tag=bewitching] run data modify block 0 0 0 Text1 set value '{"text":"Bewitching Witch","color":"light_purple"}'
+execute if entity @s[tag=small_spider] run data modify block 0 0 0 Text1 set value '{"text":"Small Spider"}'
+execute if entity @s[tag=spider] run data modify block 0 0 0 Text1 set value '{"text":"Spider"}'
+execute if entity @s[tag=cave_leech] run data modify block 0 0 0 Text1 set value '{"text":"Cave Leech"}'
+execute if entity @s[tag=ghoul] run data modify block 0 0 0 Text1 set value '{"text":"Ghoul"}'
+execute if entity @s[tag=corrupt_knight] run data modify block 0 0 0 Text1 set value '{"text":"Corrupt Knight"}'

@@ -1,0 +1,1 @@
+execute if predicate entities:chance_1 run function entities:mobs/types/dungeon/mookan/richard/summon

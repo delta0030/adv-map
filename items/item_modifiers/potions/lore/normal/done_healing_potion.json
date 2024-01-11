@@ -1,0 +1,57 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "The world's most popular liquid bandage.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "Right click to use.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": " ",
+          "italic": false
+        },
+        {
+          "text": "Ready to consume!",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": " ",
+          "italic": false
+        },
+        {
+          "text": "Restores ",
+          "color": "white",
+          "italic": false,
+          "extra": [
+            {
+              "text": "30 ",
+              "color": "red",
+              "italic": false
+            },
+            {
+              "text": "\uE000",
+              "color": "white",
+              "italic": false,
+              "font": "stats"
+            }
+          ]
+        },
+        {
+          "text": "UNCOMMON",
+          "color": "green",
+          "bold": true,
+          "italic": false
+        }
+      ],
+      "replace": true
+    }
+  ]
+  

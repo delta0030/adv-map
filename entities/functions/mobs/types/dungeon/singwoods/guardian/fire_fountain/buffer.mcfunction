@@ -1,1 +1,1 @@
-execute if entity @e[type=armor_stand,tag=swmb1_fire] run function entities:mobs/types/dungeon/singwoods/guardian/fire_fountain/test
+execute if entity @e[type=armor_stand,tag=swmb1_fire] if entity @e[type=vindicator,tag=swmb1] run function entities:mobs/types/dungeon/singwoods/guardian/fire_fountain/test

@@ -1,3 +1,4 @@
+execute if score @s null matches 0.. run function engine:trigger/give/materials/null/null
 execute if score @s pebble matches 0.. run function engine:trigger/give/materials/misc/natural/pebble
 execute if score @s chipped_rock matches 0.. run function engine:trigger/give/materials/misc/natural/chipped_rock
 execute if score @s twig matches 0.. run function engine:trigger/give/materials/misc/natural/twig
@@ -23,3 +24,5 @@ execute if score @s pure_healing matches 0.. run function engine:trigger/give/co
 execute if score @s crd_dragon_scale matches 0.. run function engine:trigger/give/consumables/potions/dragon_scale/crude_dragon_scale
 execute if score @s dragon_scale matches 0.. run function engine:trigger/give/consumables/potions/dragon_scale/dragon_scale
 execute if score @s nchntd_drgn_scle matches 0.. run function engine:trigger/give/consumables/potions/dragon_scale/enchanted_dragon_scale
+execute if score @s freeze matches 0.. run function engine:trigger/give/saved_spells/freeze
+execute if score @s tinder matches 0.. run function engine:trigger/give/saved_spells/tinder

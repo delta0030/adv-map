@@ -1,2 +1,2 @@
-execute if score @s craft_slot_1 matches 0 run data merge block ~ 3 ~ {Text1:'[{"nbt":"Text1","block":"~ 3 ~","interpret":"true"},{"translate":"space.26","font":"default"},{"translate":"space.-32","font":"default"}]'}
-execute if score @s craft_slot_1 matches 1 run data merge block ~ 3 ~ {Text1:'[{"nbt":"Text1","block":"~ 3 ~","interpret":"true"},{"text":"\\uE007","font":"crafting","color":"dark_gray"},{"translate":"space.-32","font":"default"}]'}
+execute if score @s craft_slot_1 matches 0 run data merge block 0 2 0 {Text1:'[{"nbt":"Text1","block":"0 2 0","interpret":"true"},{"translate":"space.26","font":"default"},{"translate":"space.-32","font":"default"}]'}
+execute if score @s craft_slot_1 matches 1 run data merge block 0 2 0 {Text1:'[{"nbt":"Text1","block":"0 2 0","interpret":"true"},{"text":"\\uE007","font":"crafting","color":"dark_gray"},{"translate":"space.-32","font":"default"}]'}

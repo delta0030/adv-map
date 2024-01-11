@@ -26,6 +26,6 @@
     }
   },
   "rewards": {
-    "function": "mobs:dungeon/singwoods/ghost_test"
+    "function": "entities:mobs/types/dungeon/singwoods/ghost_test"
   }
 }

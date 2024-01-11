@@ -1,0 +1,87 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_shell",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 17
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Broken Armor Shard\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Pieces from ruined armor.\",\"color\":\"dark_gray\",\"italic\":false}','[{\"text\":\" \"}]','{\"text\":\"COMMON\",\"color\":\"gray\",\"bold\":true,\"italic\":false}']},HideFlags:127,CustomModelData:10000006,broken_armor_shard:1b,data:{type:3b,class:0b,group:1b}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 33,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Frost Berry\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"text\":\"Gives the player the ability to explore the\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" coldest\",\"color\":\"blue\",\"italic\":false},{\"text\":\" of regions.\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\" \"}]','{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}']},HideFlags:127,Unbreakable:1b,CustomModelData:10000003,frost_berry:1b,data:{type:0b,class:0b,group:1b}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 33,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Fire Berry\",\"color\":\"red\",\"italic\":false}',Lore:['[{\"text\":\"Gives the player the ability to roam in the\",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\" underworld\",\"color\":\"red\",\"italic\":false},{\"text\":\".\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\" \"}]','{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}']},HideFlags:127,Unbreakable:1b,CustomModelData:10000002,fire_berry:1b,data:{type:0b,class:0b,group:1b}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 17,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Tinder\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Burn your foes with sizzling sparks.\",\"color\":\"dark_gray\",\"italic\":false}','[{\"text\":\" \"}]','[{\"text\":\"\uE005 1 \",\"color\":\"white\"},{\"text\":\"Magic\",\"color\":\"blue\"},{\"text\":\" Damage\",\"color\":\"gray\"}]','{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}']},HideFlags:127,Unbreakable:1b,CustomModelData:10000004,tinder:1b,data:{type:1b,class:3b,group:1b,stats:{mana_cost:5,cooldown:20,base_dmg:0}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 16,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Freeze\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Preserve your enemies until the year -1.\",\"color\":\"dark_gray\",\"italic\":false}','[{\"text\":\"Makes \",\"color\":\"gray\",\"italic\":false},{\"text\":\"most\",\"color\":\"blue\",\"italic\":false,\"underlined\":true},{\"text\":\" mobs in a 7 block radius slow for 5 seconds.\",\"color\":\"gray\",\"italic\":false,\"underlined\":false}]','[{\"text\":\" \"}]','[{\"text\":\"\uE005 0 \",\"color\":\"white\"},{\"text\":\"Magic\",\"color\":\"blue\"},{\"text\":\" Damage\",\"color\":\"gray\"}]','{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}']},HideFlags:127,Unbreakable:1b,CustomModelData:10000005,freeze:1b,data:{type:1b,class:3b,group:1b,stats:{mana_cost:12,cooldown:150,base_dmg:0}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Axe of Ruin\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"A mystical axe once lost in time.\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\" \"}','[{\"text\":\"\uE007 25\",\"color\":\"white\",\"italic\":false},{\"text\":\" Melee\",\"color\":\"red\",\"italic\":false},{\"text\":\" Damage\",\"color\":\"gray\",\"italic\":false}]','{\"text\":\"RARE\",\"color\":\"blue\",\"bold\":true,\"italic\":false}']},HideFlags:127,Unbreakable:1b,axe_of_ruin:1b,data:{type:1b,class:1b,group:1b,stats:{base_dmg:25,iframes:30}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
